@@ -61,3 +61,5 @@ File: Finding bugs in real world projects - Using Defects4J, I looked into a bug
         can reduced the issues and have a more accurate analysis. We can see where the bugs and warnings are shown, handle them, then run
         assert and test cases to check the accuracy. Based on my findings, I defer that the bugs have been fixed, and that the csv
         out put shown, will not cause any problems in regards to incorrect output. 
+
+File: Alexa Skill Testing Documentation - Sample testing documentation written by a group of 5 for a Software Testing course at UCI. We proposed a testing plan and description for our implemented Alexa Skill using Amazon's API.
