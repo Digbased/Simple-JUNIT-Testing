@@ -6,11 +6,7 @@ File: Structural and Functional Testing - Testing methods with JUNIT assert stat
   - Added edge cases, boundaries to continue coverage.
 
 File: Finding bugs in real world projects - Using Defects4J, I looked into a buggy file and denoted my findings. I compared the outputs and differences of where faults occur, warnings, and by writing test cases.
-  -Differences of the source code:
-        Line 958
-        Buggy: res[i] = diff * x[i] + boundaries[0][i];	
-        Fixed: res[i] = diff * x[i];
-
+       -
 
         Buggy Line 991-1000:
         for (int i = 0; i < x.length; i++) {	
@@ -22,6 +18,11 @@ File: Finding bugs in real world projects - Using Defects4J, I looked into a bug
         }	
         }	
         return true;
+        
+                  Differences of the source code:
+                  Line 958
+                  Buggy: res[i] = diff * x[i] + boundaries[0][i];	
+                  Fixed: res[i] = diff * x[i];
 
         Fixed 991-1000:
         final double[] bLoEnc = encode(boundaries[0]);
